@@ -7,6 +7,10 @@ ruby '2.6.0'
 gem 'rails', '~> 5.2.3'
 # hashing the password with bcrypt
 gem 'bcrypt',         '3.1.12'
+
+# to create semi-realistic names and email addresses
+gem 'faker'
+
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 group :development, :test do
