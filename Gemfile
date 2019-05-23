@@ -11,6 +11,10 @@ gem 'bcrypt',         '3.1.12'
 # to create semi-realistic names and email addresses
 gem 'faker'
 
+#The solution is to paginate the users, so that (for example) only 30 show up on a page at any one time.
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 group :development, :test do
