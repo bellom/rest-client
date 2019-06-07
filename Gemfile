@@ -11,6 +11,10 @@ gem 'bcrypt',         '3.1.12'
 # to create semi-realistic names and email addresses
 gem 'faker'
 
+# to upload an image
+gem 'carrierwave'
+gem 'mini_magick'
+
 #The solution is to paginate the users, so that (for example) only 30 show up on a page at any one time.
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
@@ -23,6 +27,7 @@ end
  
 group :production do
   gem 'pg'
+  gem 'fog'
 end
 
 # Use Puma as the app server
