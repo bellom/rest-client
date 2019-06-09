@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'relationships/destroy'
   get 'microposts/destroy'
   get 'password_resets/new'
   get 'password_resets/edit'
